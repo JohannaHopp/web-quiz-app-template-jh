@@ -1,15 +1,37 @@
 .form {
-  padding: 10rem 2rem 4rem 2rem;
+  padding: 8rem 2rem 4rem 2rem;
   max-width: 45rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: left;
   align-items: center;
 }
 
 .label {
+  position: relative;
+  left: 0%;
+}
+
+.textarea {
+  display: block;
+  width: 20em;
+  height: 4rem;
 }
 
 .input-tag {
+  display: block;
+  width: 20em;
+  height: 9rem;
+}
+
+.input-tag__2 {
+  display: block;
+  width: 20em;
+  height: 1.5rem;
+}
+
+.form__button-submit {
+  display: block;
+  margin: 5vh auto 2rem auto;
+  padding: 1rem;
 }
